@@ -1,3 +1,18 @@
+# Tech used in Facebook clone
+- React + React HOOS
+- React context API 
+    - According to the React docs, context provides a way to pass data through the component tree without having to pass props down manually at every level
+- Material UI
+- Flexbox
+- Firebase's Firestore realtime DB
+- Firebase Hosting
+- Firebase Google Authentication
+- React flip move
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
