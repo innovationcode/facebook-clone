@@ -20,25 +20,25 @@ const Sidebar = () => {
                         title="LD"
             />
 
-            <SidebarRow Icon = {LocalHospitalIcon} title ="COVID-19 Information Center"/>
+            <SidebarRow Icon = {LocalHospitalIcon}  iconColor = "red" title ="COVID-19 Information Center"/>
 
-            <SidebarRow Icon = {EmojiFlagsIcon} title = "Pages"/>
+            <SidebarRow Icon = {EmojiFlagsIcon} iconColor = "blue" title = "Pages"/>
 
-            <SidebarRow Icon = {PeopleIcon} title ="Friends"/>
+            <SidebarRow Icon = {PeopleIcon} iconColor = "green" title ="Friends"/>
 
-            <SidebarRow Icon = {ChatIcon} title ="Messenger"/>
+            <SidebarRow Icon = {ChatIcon} iconColor = "#FFA500"  title ="Messenger"/>
 
-            <SidebarRow Icon = {StorefrontIcon} title = "Marketplace"/>
+            <SidebarRow Icon = {StorefrontIcon} iconColor = " #40e1c1" title = "Marketplace"/>
 
-            <SidebarRow Icon = {VideoLibraryIcon} title = "Videos"/>
+            <SidebarRow Icon = {VideoLibraryIcon} iconColor = "red" title = "Videos"/>
 
-            <SidebarRow Icon = {TheatersOutlinedIcon} title = "Movies"/>
+            <SidebarRow Icon = {TheatersOutlinedIcon} iconColor = "black" title = "Movies"/>
 
-            <SidebarRow Icon = {WbSunnyOutlinedIcon} title = "Weather"/>
+            <SidebarRow Icon = {WbSunnyOutlinedIcon} iconColor = "#FFA500" title = "Weather"/>
 
-            <SidebarRow Icon = {WorkOutlinedIcon} title = "Jobs"/>
+            <SidebarRow Icon = {WorkOutlinedIcon} iconColor = "green" title = "Jobs"/>
 
-            <SidebarRow Icon = {ExpandMoreOutlinedIcon} title =""/>
+            <SidebarRow Icon = {ExpandMoreOutlinedIcon} iconColor = "action" title =""/>
         </div>
     )
 }
