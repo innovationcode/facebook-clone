@@ -27,19 +27,19 @@ const Header = () => {
 
             <div className = "header__center">
                 <div className = "header__option-active">
-                    <HomeIcon fontSize = "Large" />
+                    <HomeIcon fontSize = "large" />
                 </div>
                 <div className = "header__option">
-                    <FlagIcon fontSize = "Large" />
+                    <FlagIcon fontSize = "large" />
                 </div>
                 <div className = "header__option">
-                    <SubscriptionsOutlinedIcon fontSize = "Large" />
+                    <SubscriptionsOutlinedIcon fontSize = "large" />
                 </div>
                 <div className = "header__option">
-                    <StorefrontIcon fontSize = "Large" />
+                    <StorefrontIcon fontSize = "large" />
                 </div>
                 <div className = "header__option">
-                    <SupervisedUserCircleIcon fontSize = "Large" />
+                    <SupervisedUserCircleIcon fontSize = "large" />
                 </div>
             </div>
 
