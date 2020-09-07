@@ -16,27 +16,27 @@ import './Sidebar.css';
 const Sidebar = () => {
     return (
         <div className = "sidebar">
-            <SidebarRow src = "https://i1.pngguru.com/preview/457/896/952/s-icon-no-background-icon-512x512-2x-color-shade-fan.jpg"
+            <SidebarRow src = "https://image.freepik.com/free-vector/man-profile-cartoon_18591-58482.jpg"
                         title="LD"
             />
 
             <SidebarRow Icon = {LocalHospitalIcon}  iconColor = "red" title ="COVID-19 Information Center"/>
 
-            <SidebarRow Icon = {EmojiFlagsIcon} iconColor = "blue" title = "Pages"/>
+            <SidebarRow Icon = {EmojiFlagsIcon} iconColor = "#1cd5e1" title = "Pages"/>
 
-            <SidebarRow Icon = {PeopleIcon} iconColor = "green" title ="Friends"/>
+            <SidebarRow Icon = {PeopleIcon} iconColor = "#1cd5e1" title ="Friends"/>
 
-            <SidebarRow Icon = {ChatIcon} iconColor = "#FFA500"  title ="Messenger"/>
+            <SidebarRow Icon = {ChatIcon} iconColor = "#1cd5e1"  title ="Messenger"/>
 
             <SidebarRow Icon = {StorefrontIcon} iconColor = " #40e1c1" title = "Marketplace"/>
 
-            <SidebarRow Icon = {VideoLibraryIcon} iconColor = "red" title = "Videos"/>
+            <SidebarRow Icon = {VideoLibraryIcon} iconColor = "#8E56A8" title = "Videos"/>
 
             <SidebarRow Icon = {TheatersOutlinedIcon} iconColor = "black" title = "Movies"/>
 
             <SidebarRow Icon = {WbSunnyOutlinedIcon} iconColor = "#FFA500" title = "Weather"/>
 
-            <SidebarRow Icon = {WorkOutlinedIcon} iconColor = "green" title = "Jobs"/>
+            <SidebarRow Icon = {WorkOutlinedIcon} iconColor = "#2e943a" title = "Jobs"/>
 
             <SidebarRow Icon = {ExpandMoreOutlinedIcon} iconColor = "action" title =""/>
         </div>
