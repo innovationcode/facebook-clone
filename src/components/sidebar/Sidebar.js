@@ -10,14 +10,17 @@ import TheatersOutlinedIcon from '@material-ui/icons/TheatersOutlined';
 import WbSunnyOutlinedIcon from '@material-ui/icons/WbSunnyOutlined';
 import WorkOutlinedIcon from '@material-ui/icons/WorkOutlined';
 import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined';
+import { useStateValue } from '../../stateProvider/StateProvider.js';
 
 import './Sidebar.css';
 
 const Sidebar = () => {
+    const [{user}, dispatch] = useStateValue();
+
     return (
         <div className = "sidebar">
-            <SidebarRow src = "https://image.freepik.com/free-vector/man-profile-cartoon_18591-58482.jpg"
-                        title="LD"
+            <SidebarRow src = {user.photoURL}
+                        title= {user.displayName}
             />
 
             <SidebarRow Icon = {LocalHospitalIcon}  iconColor = "red" title ="COVID-19 Information Center"/>
