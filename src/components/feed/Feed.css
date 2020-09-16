@@ -1,8 +1,9 @@
 .feed {
-    flex: 1;
-    padding: 30px 130px;
+    flex: 0.90;
+    padding: 30px 110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #e4e6f0;
 }
